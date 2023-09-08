@@ -117,7 +117,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                       title: 'success',
                       text: 'profile saved sucessfully'
       }).then(function() {
-          window.location = "welcome.php";
+          window.location = "index1.php";
       });
               </script>
               <?php
@@ -466,7 +466,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <input type="date"  class="profile-input1" name="dob" required><br><br>
   
   <input class="custom-button" style="font-size: 30px;" type="submit" value="Submit">
-  <button class="custom-button1" style="font-size: 30px;"> <a href="welcome.php"> Update</a></button>
+  <button class="custom-button1" style="font-size: 30px;"> <a href="index1.php"> Update</a></button>
  <button class="custom-button2" style="font-size: 30px;"> <a href="logout.php"> Logout</a></button>
 </form>
 </div>

@@ -25,7 +25,7 @@ if ($result->num_rows == 1) {
                     title: 'success',
                     text: 'Login sucessfully'
     }).then(function() {
-        window.location = "welcome.php";
+        window.location = "index1.php";
     });
             </script>
             <?php

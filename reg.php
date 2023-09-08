@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             title: 'success',
                             text: 'Register sucessfully'
             }).then(function() {
-                window.location = "log.html";
+                window.location = "index.html";
             });
                     </script>
                     <?php

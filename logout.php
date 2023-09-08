@@ -14,7 +14,7 @@ icon: 'warning',
                 title: 'Are you Sure?',
                 text: 'You want to Logout!'
 }).then(function() {
-    window.location = "log.html";
+    window.location = "index.html";
 });
         </script>
         <?php
